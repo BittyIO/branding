@@ -7,7 +7,18 @@ Whether you are a developer, designer, or contributor, this is the go-to place t
 ## Contents
 
 - `svg/horizontal/`, `svg/vertical/` — "Bitty" wordmark lockups with the vault mark, in each wordmark colour variant.
-- `svg/mark.svg` — vault mark only, transparent background.
+- `svg/mark.svg` — vault mark (vault wheel with engraved "B" hub, B rotated −19°), transparent background.
 - `svg/app-icon.svg` — full app icon (mark on brushed-steel square), vector source.
 - `PNG/app-icon/` — app icon PNGs, 16 → 1024px.
 - `AppIcon.appiconset/` — drop-in Xcode asset catalog icon set (square, opaque; iOS applies the corner mask).
+- `PNG/x/` — X/Twitter avatar (`x-avatar-400.png` to upload; X crops to a circle).
+- `favicon/` — website favicons + `site.webmanifest`. `favicon.svg` / `.ico` / `favicon-*.png` are the handles + B only (the SVG adapts to light/dark mode); `apple-touch-icon.png` and `icon-*.png` are the full app icon. Copy into the site root and add:
+
+  ```html
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  ```
+
+The "B" letterform is Inter ExtraBold (SIL Open Font License).
