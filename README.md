@@ -7,6 +7,7 @@ Whether you are a developer, designer, or contributor, this is the go-to place t
 ## Contents
 
 - `svg/horizontal/`, `svg/vertical/` — "Bitty" wordmark lockups with the vault mark, in each wordmark colour variant.
+- `svg/bitty-vault/` — "Bitty Vault" logo as used on the website: the app icon beside the wordmark. `white.svg` is for dark backgrounds, `black.svg` for light ones. "Bitty" is the original wordmark; "Vault" is set in Paytone One (SIL Open Font License) at the same weight and spacing. The icon is embedded as a 256px PNG, so it stays sharp at header sizes.
 - `svg/mark.svg` — vault mark (vault wheel with engraved "B" hub, B rotated −19°), transparent background.
 - `svg/app-icon.svg` — full app icon (mark on brushed-steel square), vector source.
 - `PNG/app-icon/` — app icon PNGs, 16 → 1024px.
